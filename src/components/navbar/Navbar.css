@@ -1,6 +1,6 @@
 .NavbarItems {
     background: linear-gradient(550deg, rgb(146, 138, 214) 0%, rgb(125, 35, 185) 100%);
-    height: 80px;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,24 +14,22 @@
     text-align: left;
     margin-left: 1rem;
     margin-right: 1rem;
-    padding-left: 0px;
-    padding-right: .4rem;
     color: rgb(236, 97, 178);
 
 }
 .navbar-btc {
+    display: flex;
+    margin-right: 1rem;
     color: rgb(250, 242, 169);
 }
 
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-gap: 10px;
+    grid-gap: .7rem;
     list-style: none;
-    text-align: center;
-    width: 70vw;
+    width: 80vw;
     justify-content: end;
-    margin-right: 2rem;
 }
 
 .nav-links {
