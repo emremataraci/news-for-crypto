@@ -7,18 +7,14 @@ const Homepage = () => {
     <>
       <section className='homepage'>
         <div className='container-1'>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
-            <p>There will be news here. </p>
+            <div className="news-row news-row-link">There will be news here.There will be news hereThere will be news hereThere will be news here</div>
+            <div className="news-row news-row-link">There will be news here.</div>
+            <div className="news-row news-row-link">There will be news here.</div>
+            <div className="news-row news-row-link">There will be news here.</div>
+            <div className="news-row news-row-link">There will be news here.</div>
+            <div className="news-row news-row-link">There will be news here.</div>
+            <div className="news-row news-row-link">There will be news here.</div>
+            <div className="news-row news-row-link">There will be news here.</div>
 
         </div>
         <div className='container-2'>

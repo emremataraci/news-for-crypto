@@ -3,6 +3,8 @@ import MenuItems from "./MenuItems";
 import './Navbar.css';
 import { FaTimes, FaBtc } from 'react-icons/fa';
 import { bars } from '@fortawesome/react-fontawesome'
+import ContactUs from '../ContactUs';
+import {Link,Switch,Route,useParams} from 'react-router-dom'
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -21,9 +23,8 @@ class Navbar extends Component {
                     {MenuItems.map((item,index) => {
                         return(
                             <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                {item.title}
-                                </a>
+                                <Link className={item.cName} to={item.url}>{item.title}
+                                </Link>
                             </li>
                         )
                     })}

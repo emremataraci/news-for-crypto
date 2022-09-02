@@ -1,17 +1,17 @@
 const MenuItems = [
     {
         title: 'Home Page',
-        url: '#',
+        url: 'homepage',
         cName: 'nav-links'
     },
     {
         title: 'Cryptos',
-        url: '#',
+        url: 'cryptocurrencies',
         cName: 'nav-links'
     },
     {
         title: 'Contact Us',
-        url: '#',
+        url: 'contact-us',
         cName: 'nav-links'
     }
     
